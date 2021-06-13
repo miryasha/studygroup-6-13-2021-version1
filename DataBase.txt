@@ -1,0 +1,8 @@
+create schema car_database;
+use car_database;
+
+create table car (
+car_id int not null auto_increment primary key,
+car_make varchar(20) not null,
+car_color varchar(20) not null
+);
